@@ -13,6 +13,7 @@ return {
   { import = "astrocommunity.recipes.disable-borders" },
   -- ai
   { import = "astrocommunity.completion.copilot-cmp" },
+  -- { import = "astrocommunity.editing-support.vector-code-nvim" },
   -- lang packs
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.python-ruff" },

@@ -14,10 +14,32 @@ return {
     "nvim-treesitter/nvim-treesitter",
   },
   opts = {
+    strategies = {
+      chat = {
+        tools = {
+          groups = {
+            ["all_but_no_edit"] = {
+              description = "custom - everything, except editing",
+              tools = {
+                "file_search",
+                "get_changed_files",
+                "grep_search",
+                "list_code_usages",
+                "read_file",
+                "search_web",
+              },
+            },
+          },
+          opts = {
+            default_tools = {},
+          },
+        },
+      },
+    },
     display = {
       chat = {
         window = {
-          width = 0.38,
+          width = 0.37,
           -- layout = "float",
           position = "right",
         },
