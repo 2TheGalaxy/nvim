@@ -6,7 +6,7 @@
 
 #### Make a backup of your current nvim and shared folder
 
-**"Linux/macOS"**
+**Linux/macOS**
 ```shell
 mv ~/.config/nvim ~/.config/nvim.bak
 mv ~/.local/share/nvim ~/.local/share/nvim.bak
@@ -14,7 +14,7 @@ mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
 
-**"Windows"**
+**Windows**
 ```powershell
 Move-Item "$env:APPDATA\nvim" "$env:APPDATA\nvim.bak"
 Move-Item "$env:LOCALAPPDATA\nvim" "$env:LOCALAPPDATA\nvim.bak"
@@ -24,12 +24,12 @@ Move-Item "$env:LOCALAPPDATA\nvim-cache" "$env:LOCALAPPDATA\nvim-cache.bak"
 
 #### Clone the repository
 
-**"Linux/macOS"**
+**Linux/macOS**
 ```shell
 git clone https://github.com/2TheGalaxy/nvim ~/.config/nvim
 ```
 
-**"Windows"**
+**Windows**
 ```powershell
 git clone https://github.com/2TheGalaxy/nvim "$env:APPDATA\nvim"
 ```
