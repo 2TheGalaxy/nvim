@@ -13,7 +13,6 @@ return {
   { import = "astrocommunity.recipes.disable-borders" },
   -- ai
   { import = "astrocommunity.completion.copilot-cmp" },
-  -- { import = "astrocommunity.editing-support.vector-code-nvim" },
   -- lang packs
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.python-ruff" },
@@ -23,4 +22,5 @@ return {
   { import = "astrocommunity.motion.harpoon" },
   -- diagnostics
   { import = "astrocommunity.diagnostics.trouble-nvim" },
+  { import = "astrocommunity.workflow.hardtime-nvim" },
 }
