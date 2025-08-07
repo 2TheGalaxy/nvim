@@ -12,7 +12,7 @@ require("lazy").setup({
     },
   },
   { import = "community" },
-  { import = "plugins-community" }, -- those are community plugins, but tweaked
+  { import = "user" },
   { import = "plugins" },
 } --[[@as LazySpec]], {
   -- Configure any other `lazy.nvim` configuration options here
