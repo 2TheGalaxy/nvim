@@ -1,5 +1,6 @@
 local prefix = "<Leader>A"
 
+---@type LazySpec
 return {
   "olimorris/codecompanion.nvim",
   event = "User AstroFile",

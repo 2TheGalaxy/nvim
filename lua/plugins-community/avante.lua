@@ -1,4 +1,6 @@
 local prefix = "<Leader>a"
+
+---@type LazySpec
 return {
   "yetone/avante.nvim",
   build = vim.fn.has "win32" == 1 and "powershell -ExecutionPolicy Bypass -File Build.ps1 -BuildFromSource false"

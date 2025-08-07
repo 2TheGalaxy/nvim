@@ -1,3 +1,4 @@
+---@type LazySpec
 return {
   "Davidyz/VectorCode",
   build = "uv tool install vectorcode",

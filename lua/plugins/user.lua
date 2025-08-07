@@ -1,7 +1,3 @@
--- You can also add or configure plugins by creating files in this `plugins/` folder
--- PLEASE REMOVE THE EXAMPLES YOU HAVE NO INTEREST IN BEFORE ENABLING THIS FILE
--- Here are some examples:
-
 ---@type LazySpec
 return {
   -- add copilot to cmp
@@ -42,9 +38,7 @@ return {
     },
   },
 
-  -- You can disable default plugins as follows:
-  -- { "max397574/better-escape.nvim", enabled = false },
-
+  -- luasnip
   {
     "L3MON4D3/LuaSnip",
     config = function(plugin, opts)
@@ -55,6 +49,7 @@ return {
     end,
   },
 
+  -- autopairs
   {
     "windwp/nvim-autopairs",
     config = function(plugin, opts)
@@ -102,6 +97,8 @@ return {
       },
     },
   },
+
+  -- lsp_signature
   {
     "ray-x/lsp_signature.nvim",
     event = "BufRead",
@@ -113,6 +110,41 @@ return {
     "m4xshen/hardtime.nvim",
     opts = {
       timeout = 6000,
+    },
+  },
+  -- reascript
+  {
+    "2TheGalaxy/reascript-lua-ls.nvim",
+    opts = {},
+  },
+
+  -- landing page
+  {
+    "folke/snacks.nvim",
+    opts = {
+      dashboard = {
+        preset = {
+          header = table.concat({
+            "         /\\                                                               ",
+            "        /**\\                                                              ",
+            "       /****\\   /\\                                                        ",
+            "      /      \\ /**\\                                                       ",
+            "     /  /\\    /    \\        /\\    /\\  /\\      /\\            /\\/\\/\\  /\\    ",
+            "    /  /  \\  /      \\      /  \\/\\/  \\/  \\  /\\/  \\/\\  /\\  /\\/ / /  \\/  \\   ",
+            "   /  /    \\/ /\\     \\    /    \\ \\  /    \\/ /   /  \\/  \\/  \\  /    \\   \\  ",
+            "  /  /      \\/  \\/\\   \\  /      \\    /   /    \\                           ",
+            "_/__/_______/___/__\\___\\_________________________________🦫🦫_____________",
+            "",
+            " ::::    ::: :::::::::: ::::::::  :::     ::: ::::::::::: ::::     :::: ",
+            " :+:+:   :+: :+:       :+:    :+: :+:     :+:     :+:     +:+:+: :+:+:+ ",
+            " :+:+:+  +:+ +:+       +:+    +:+ +:+     +:+     +:+     +:+ +:+:+ +:+ ",
+            " +#+ +:+ +#+ +#++:++#  +#+    +:+ +#+     +:+     +#+     +#+  +:+  +#+ ",
+            " +#+  +#+#+# +#+       +#+    +#+  +#+   +#+      +#+     +#+       +#+ ",
+            " #+#   #+#+# #+#       #+#    #+#   #+#+#+#       #+#     #+#       #+# ",
+            " ###    #### ########## ########      ###     ########### ###       ### ",
+          }, "\n"),
+        },
+      },
     },
   },
 }
