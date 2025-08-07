@@ -85,7 +85,6 @@ return {
     end,
   },
 
-  --==UI==--
   -- lualine
   {
     "nvim-lualine/lualine.nvim",
@@ -108,5 +107,12 @@ return {
     event = "BufRead",
     config = function() require("lsp_signature").setup() end,
   },
-  --====--
+
+  -- hardtime
+  {
+    "m4xshen/hardtime.nvim",
+    opts = {
+      timeout = 6000,
+    },
+  },
 }
