@@ -10,7 +10,7 @@ return {
   { import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.bars-and-lines.lualine-nvim" },
   { import = "astrocommunity.icon.mini-icons" },
-  -- { import = "astrocommunity.recipes.disable-tabline" },
+  { import = "astrocommunity.recipes.disable-tabline" },
   -- themes
   { import = "astrocommunity.colorscheme.bamboo-nvim" },
   { import = "astrocommunity.colorscheme.nvim-juliana" },
