@@ -41,7 +41,7 @@ return {
         spell = false, -- sets vim.opt.spell
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
-        colorcolumn = "80",
+        -- colorcolumn = "80",
         scrolloff = 9,
       },
       g = { -- vim.g.<key>
