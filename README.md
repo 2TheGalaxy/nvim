@@ -5,7 +5,6 @@
 ## Installation
 
 ### Make a backup of your current nvim and shared folder
-
 **Linux/macOS**
 ```shell
 mv ~/.config/nvim ~/.config/nvim.bak
@@ -23,7 +22,6 @@ Move-Item "$env:LOCALAPPDATA\nvim-cache" "$env:LOCALAPPDATA\nvim-cache.bak"
 ```
 
 ### Clone the repository
-
 **Linux/macOS**
 ```shell
 git clone https://github.com/2TheGalaxy/nvim ~/.config/nvim
@@ -35,9 +33,12 @@ git clone https://github.com/2TheGalaxy/nvim "$env:APPDATA\nvim"
 ```
 
 ### Start Neovim
-
 ```shell
 nvim
+```
+### inside neovim run:
+```
+:TSInstall yaml
 ```
 
 
@@ -109,4 +110,8 @@ lazygit
 ### run neovim and let it sit for a while
 ```
 nvim
+```
+### inside neovim run:
+```
+:TSInstall yaml
 ```
