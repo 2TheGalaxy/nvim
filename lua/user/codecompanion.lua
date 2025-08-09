@@ -41,7 +41,7 @@ return {
     display = {
       chat = {
         window = {
-          width = 0.37,
+          width = 0.40,
           -- layout = "float",
           position = "right",
         },
