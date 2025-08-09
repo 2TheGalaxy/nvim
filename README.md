@@ -44,7 +44,7 @@ nvim
 ## FRESH UBUNTU 24.04 x86-64 install with neovim config
 (copy each section separately and run in that order):
 
-### seup ubuntu and dependencies
+### setup ubuntu and dependencies
 -- make dev dir for projects and set aliases -> nvim config dir as "nvc", dev dir as "dev"
 -- apt
 -- fuse
@@ -101,7 +101,7 @@ uv tool update-shell
 ```
 git clone https://github.com/2TheGalaxy/nvim ~/.config/nvim
 ```
-### cd into git repo, run lazygit for few seconds and quit using "q"
+### cd into neovim config dir, run lazygit for few seconds and quit using "q"
 ```
 nvc
 lazygit
