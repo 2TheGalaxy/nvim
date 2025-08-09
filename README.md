@@ -2,6 +2,8 @@
 
 **NOTE:** My nvim is based on [AstroNvim](https://github.com/AstroNvim/AstroNvim) v5+ template.
 
+Recommended transparent terminal
+
 ## Installation
 
 ### Make a backup of your current nvim and shared folder
