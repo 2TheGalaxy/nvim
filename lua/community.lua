@@ -5,17 +5,17 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  -- themes
+  { import = "astrocommunity.colorscheme.bamboo-nvim" },
+  { import = "astrocommunity.colorscheme.nvim-juliana" },
+  { import = "astrocommunity.colorscheme.bluloco-nvim" },
+  { import = "astrocommunity.colorscheme.cyberdream-nvim" },
   -- ui
   { import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.bars-and-lines.lualine-nvim" },
   { import = "astrocommunity.icon.mini-icons" },
   { import = "astrocommunity.recipes.disable-tabline" },
-  -- themes
-  { import = "astrocommunity.colorscheme.bamboo-nvim" },
-  { import = "astrocommunity.colorscheme.nvim-juliana" },
-  { import = "astrocommunity.colorscheme.bluloco-nvim" },
-  { import = "astrocommunity.colorscheme.cyberdream-nvim" },
   -- ai
   { import = "astrocommunity.completion.copilot-cmp" },
   -- lang packs
