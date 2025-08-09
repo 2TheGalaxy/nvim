@@ -4,6 +4,20 @@
 
 Recommended transparent terminal
 
+## Requirements
+- C compiler
+- tree-sitter-cli
+- python
+- nodejs
+- optional but recommended:
+  - golang
+  - uv
+  - lazygit
+  - vectorcode-cli
+  - ripgrep
+  - gdu
+  - bottom
+
 ## Installation
 
 ### Make a backup of your current nvim and shared folder
@@ -15,26 +29,13 @@ mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
 
-**Windows**
-```powershell
-Move-Item "$env:APPDATA\nvim" "$env:APPDATA\nvim.bak"
-Move-Item "$env:LOCALAPPDATA\nvim" "$env:LOCALAPPDATA\nvim.bak"
-Move-Item "$env:LOCALAPPDATA\nvim-data" "$env:LOCALAPPDATA\nvim-data.bak"
-Move-Item "$env:LOCALAPPDATA\nvim-cache" "$env:LOCALAPPDATA\nvim-cache.bak"
-```
-
 ### Clone the repository
 **Linux/macOS**
 ```shell
 git clone https://github.com/2TheGalaxy/nvim ~/.config/nvim
 ```
 
-**Windows**
-```powershell
-git clone https://github.com/2TheGalaxy/nvim "$env:APPDATA\nvim"
-```
-
-### Start Neovim
+### Start Neovim and let it sit for a while
 ```shell
 nvim
 ```
@@ -68,7 +69,7 @@ sudo curl -o- https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
 ```
 -- gcc
 -- nodejs
--- tree-sitter
+-- tree-sitter-cli
 -- golang
 -- neovim
 -- ripgrep
