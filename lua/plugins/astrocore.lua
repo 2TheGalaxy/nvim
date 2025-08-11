@@ -43,6 +43,7 @@ return {
         wrap = false, -- sets vim.opt.wrap
         -- colorcolumn = "80",
         scrolloff = 9,
+        showtabline = 0,
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)

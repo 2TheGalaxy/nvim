@@ -4,7 +4,7 @@ return {
   {
     "lukas-reineke/virt-column.nvim",
     opts = {
-      char = "",
+      -- char = "",
       virtcolumn = "80",
     },
   },
@@ -101,7 +101,7 @@ return {
     "nvim-neo-tree/neo-tree.nvim",
     opts = {
       window = {
-        width = 25,
+        width = 27,
       },
     },
   },
