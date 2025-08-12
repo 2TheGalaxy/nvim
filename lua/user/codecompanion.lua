@@ -32,9 +32,9 @@ return {
               },
             },
           },
-          opts = {
-            default_tools = {},
-          },
+        },
+        opts = {
+          default_tools = {},
         },
       },
     },
