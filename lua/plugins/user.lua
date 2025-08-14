@@ -1,5 +1,14 @@
 ---@type LazySpec
 return {
+  -- theme
+  {
+    "scottmckendry/cyberdream.nvim",
+    opts = {
+      colors = {
+        bg_highlight = "#6c7078",
+      },
+    },
+  },
   -- virt-column
   {
     "lukas-reineke/virt-column.nvim",
