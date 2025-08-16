@@ -6,9 +6,6 @@
 return {
   "AstroNvim/astrocommunity",
   -- themes
-  { import = "astrocommunity.colorscheme.bamboo-nvim" },
-  { import = "astrocommunity.colorscheme.nvim-juliana" },
-  { import = "astrocommunity.colorscheme.bluloco-nvim" },
   { import = "astrocommunity.colorscheme.cyberdream-nvim" },
   -- ui
   { import = "astrocommunity.color.transparent-nvim" },

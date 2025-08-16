@@ -12,10 +12,12 @@ return {
         -- install language servers
         "lua-language-server",
         "basedpyright",
+        "clangd",
 
         -- install formatters
         "stylua",
         "ruff",
+        "clang-format",
 
         -- install debuggers
         "debugpy",
