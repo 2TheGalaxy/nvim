@@ -45,7 +45,7 @@ return {
         settings = {
           basedpyright = {
             analysis = {
-              typeCheckingMode = "all",
+              typeCheckingMode = "recommended",
               diagnosticSeverityOverrides = {},
             },
           },
