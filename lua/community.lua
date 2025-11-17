@@ -16,7 +16,7 @@ return {
   { import = "astrocommunity.bars-and-lines.lualine-nvim" },
   { import = "astrocommunity.icon.mini-icons" },
   -- ai
-  -- { import = "astrocommunity.completion.copilot-cmp" },
+  { import = "astrocommunity.completion.copilot-cmp" },
   -- lang packs
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.python-ruff" },

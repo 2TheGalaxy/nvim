@@ -8,43 +8,43 @@ return {
       virtcolumn = "80",
     },
   },
-  -- -- add copilot to cmp
-  -- {
-  --   "Saghen/blink.cmp",
-  --   opts = {
-  --     sources = {
-  --       providers = {
-  --         copilot = {
-  --           transform_items = function(_, items)
-  --             local CompletionItemKind = require("blink.cmp.types").CompletionItemKind
-  --             local kind_idx = #CompletionItemKind + 1
-  --             CompletionItemKind[kind_idx] = "Copilot"
-  --             for _, item in ipairs(items) do
-  --               item.kind = kind_idx
-  --             end
-  --             return items
-  --           end,
-  --           score_offset = 10000,
-  --         },
-  --       },
-  --     },
-  --     completion = {
-  --       menu = {
-  --         draw = {
-  --           columns = {
-  --             { "label", "label_description", gap = 1 },
-  --             { "kind_icon", "kind", gap = 1 },
-  --           },
-  --         },
-  --       },
-  --     },
-  --     appearance = {
-  --       kind_icons = {
-  --         Copilot = "",
-  --       },
-  --     },
-  --   },
-  -- },
+  -- add copilot to cmp
+  {
+    "Saghen/blink.cmp",
+    opts = {
+      sources = {
+        providers = {
+          copilot = {
+            transform_items = function(_, items)
+              local CompletionItemKind = require("blink.cmp.types").CompletionItemKind
+              local kind_idx = #CompletionItemKind + 1
+              CompletionItemKind[kind_idx] = "Copilot"
+              for _, item in ipairs(items) do
+                item.kind = kind_idx
+              end
+              return items
+            end,
+            score_offset = 10000,
+          },
+        },
+      },
+      completion = {
+        menu = {
+          draw = {
+            columns = {
+              { "label", "label_description", gap = 1 },
+              { "kind_icon", "kind", gap = 1 },
+            },
+          },
+        },
+      },
+      appearance = {
+        kind_icons = {
+          Copilot = "",
+        },
+      },
+    },
+  },
 
   -- luasnip
   {
