@@ -23,6 +23,7 @@ return {
   { import = "astrocommunity.pack.go" },
   -- motion
   { import = "astrocommunity.motion.mini-move" },
+  { import = "astrocommunity.motion.mini-surround" },
   { import = "astrocommunity.motion.harpoon" },
   -- diagnostics
   { import = "astrocommunity.diagnostics.trouble-nvim" },
