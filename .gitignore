@@ -3,6 +3,7 @@ coc-settings.json
 
 # Global gitignore
 # ----------------
+*.deb
 
 # Mac OS X
 .AppleDouble
