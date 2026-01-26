@@ -17,6 +17,7 @@ return {
   { import = "astrocommunity.icon.mini-icons" },
   -- ai
   -- { import = "astrocommunity.completion.copilot-cmp" },
+  { import = "astrocommunity.ai.opencode-nvim" },
   -- lang packs
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.python-ruff" },

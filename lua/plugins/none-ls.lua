@@ -1,3 +1,4 @@
+if true then return {} end
 -- Customize None-ls sources
 
 ---@type LazySpec
@@ -22,6 +23,7 @@ return {
             .. "BreakBeforeBraces: Allman, "
             .. "ColumnLimit: 79, "
             .. "AllowShortCaseLabelsOnASingleLine: true, "
+            .. "AllowShortFunctionsOnASingleLine: None, "
             .. "AllowShortIfStatementsOnASingleLine: false}",
         },
       },
