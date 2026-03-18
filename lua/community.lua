@@ -27,6 +27,7 @@ return {
   { import = "astrocommunity.motion.mini-surround" },
   { import = "astrocommunity.motion.harpoon" },
   -- diagnostics
+  -- { import = "astrocommunity.pack.prettier" },
   -- { import = "astrocommunity.diagnostics.trouble-nvim" },
   -- { import = "astrocommunity.workflow.hardtime-nvim" },
 }

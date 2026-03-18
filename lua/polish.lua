@@ -7,6 +7,7 @@ vim.api.nvim_create_autocmd("FileType", {
   pattern = { "c", "cpp", "h" },
   callback = function() vim.opt_local.formatoptions:remove { "r", "o" } end,
 })
+
 -- vim.diagnostic.config {
 --   virtual_text = false,
 --   virtual_lines = true,

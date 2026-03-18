@@ -41,16 +41,16 @@ return {
     ---@diagnostic disable: missing-fields
     config = {
       -- "basedpyright"
-      basedpyright = {
-        settings = {
-          basedpyright = {
-            analysis = {
-              typeCheckingMode = "recommended",
-              diagnosticSeverityOverrides = {},
-            },
-          },
-        },
-      },
+      -- basedpyright = {
+      --   settings = {
+      --     basedpyright = {
+      --       analysis = {
+      --         typeCheckingMode = "recommended",
+      --         diagnosticSeverityOverrides = {},
+      --       },
+      --     },
+      --   },
+      -- },
       -- clangd = { capabilities = { offsetEncoding = "utf-8" } },
     },
     -- customize how language servers are attached
