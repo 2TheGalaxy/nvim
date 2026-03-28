@@ -1,4 +1,3 @@
-if true then return {} end
 local prefix = "<Leader>a"
 
 ---@type LazySpec
@@ -17,6 +16,17 @@ return {
     "ravitemer/codecompanion-history.nvim",
   },
   opts = {
+    adapters = {
+      http = {
+        gemini = function()
+          return require("codecompanion.adapters").extend("gemini", {
+            env = {
+              api_key = "cmd: gpg --batch --quiet --decrypt ~/.api_keys/gemini.gpg",
+            },
+          })
+        end,
+      },
+    },
     strategies = {
       chat = {
         tools = {
@@ -35,6 +45,7 @@ return {
           },
         },
         opts = {
+          log_level = "TRACE",
           default_tools = {},
         },
       },
@@ -47,10 +58,9 @@ return {
           position = "right",
         },
         auto_scroll = true,
-        -- intro_message = "Weeeeeelcome to CodeCompanion!",
         show_header_separator = true,
         show_token_count = true,
-        show_settings = true,
+        -- show_settings = true,
       },
     },
     extensions = {
